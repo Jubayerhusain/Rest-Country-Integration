@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React from "react";
 
 const Navber = () => {
-    return (
-        <div>
-            <nav className='flex justify-between w-11/12 mx-auto shadow-md p-10 items-center'>
+  return (
+    <div>
+      <nav className='flex justify-between w-11/12 mx-auto shadow-md p-10 items-center'>
                 <div>
                     <h1 className='text-4xl text-gray-700 font-bold'>All Country</h1>
                 </div>
@@ -21,8 +21,8 @@ const Navber = () => {
                     <button className='mx-2 px-5 py-2 border-2 rounded-lg'>Sing Up</button>
                 </div>
             </nav>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Navber;
