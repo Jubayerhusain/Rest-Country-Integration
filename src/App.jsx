@@ -4,6 +4,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Navber from "./components/Navber";
+import Countres from "./components/Countres";
 
 function App() {
   return (
@@ -22,8 +23,10 @@ function App() {
         </div>
         <div className="col-span-4">
           {/* all Country section start */}
-          <div className="h-[800px]  w-full border-2 border-indigo-600">
-            <h1>lorem500</h1>
+          <div className="h-full  w-full pt-2">
+            <div>
+              <Countres></Countres>
+            </div>
           </div>
           {/* all Country section close */}
         </div>
