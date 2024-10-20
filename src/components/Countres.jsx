@@ -17,7 +17,7 @@ const Countres = () => {
       </h1>
       <div className="grid grid-cols-3 gap-5 pt-10">
         {allCountry.map((country) => (
-          <Country key={allCountry.name.common} AllCountry={country}></Country>
+          <Country key={allCountry.ccn3} AllCountry={country}></Country>
         ))}
       </div>
     </div>
